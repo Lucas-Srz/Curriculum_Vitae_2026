@@ -1,30 +1,85 @@
 /* Import */
 @import url('variable.css');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
 
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: var(--color-gray);
 }
 
-/* ********************** CSS MOBILE FISRT ********************** */
+body{
+    width: 100%;
+}
 
-/* *************** CSS POUR Tablette / Ordinateur *************** */
-/* XXX plus grand ou égale à XXXpx */
+h1, h2, h3{
+    font-family: "Comfortaa", sans-serif;
+}
 
+h3{
+    margin-bottom: 10px;
+}
+
+p, a, ul{
+    font-family: "Noto Sans", sans-serif;
+}
+
+ul{
+    padding-left: 15px;
+}
+
+.link{
+    text-decoration: none;
+    color: var(--color-black);
+}
 
 /* Mobile < 427px */
+/* Aside */
+aside{
+    background-color: var(--color-light-orange);
+    padding: 20px;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
 
+    #profilePicture{
+        display: flex;
+        justify-content: center;
+
+        #imgProfil{
+            width: 140px;
+            height: 140px;
+            border-radius: 15px;
+            object-fit: cover;
+            display: block;
+            margin: 0 auto 15px;
+        }
+    }
+
+    div{
+        margin-bottom: 3px;
+    }
+
+    .iconBox{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 10px;
+        font-size: 14px;
+
+        .icons{
+            width: 18px;
+        }
+    }
+}
 
 /* Tablette ≥ 426px */
 @media screen and (min-width: 426px) {
-
 }
 
 /* LapTop (NoteBock) ≥ 769px */
 @media screen and (min-width: 769px) {
-
 }
 
 /* Desktop ≥ 1025px */
