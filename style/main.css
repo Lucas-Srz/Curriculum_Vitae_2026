@@ -115,6 +115,7 @@ aside{
         gap: 20px;
 
         .skillsTitle{
+            color: var(--color-orange);
             font-weight: bold;
         }
     }
