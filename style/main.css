@@ -28,6 +28,11 @@ p, a, ul{
     font-family: "Noto Sans", sans-serif;
 }
 
+a{
+    text-decoration: none;
+    color: var(--color-black);
+}
+
 ul{
     padding-left: 15px;
 }
