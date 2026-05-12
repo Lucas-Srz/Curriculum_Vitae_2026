@@ -45,6 +45,10 @@ aside, #container{
     padding: 20px;
 }
 
+.justify{
+    text-align: justify;
+}
+
 /* Mobile < 427px */
 /* Aside */
 aside{
